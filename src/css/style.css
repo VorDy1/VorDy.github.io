@@ -183,13 +183,13 @@ main{
 
 
 .aboutme h2{
-    font-size: 30px;
-    font-weight: normal;
+    font-size: 33px;
+    font-weight: 500;
     margin: 0px 0px 95px 0px;
 }
 
 .aboutme h4{
-    font-size: 22px;
+    font-size: 20px;
     color: #79818d;
     margin: 25px 0px 43px 0px; 
 }
@@ -222,6 +222,7 @@ main{
     float: right;
     color:#2c384a;
     text-align: center;
+    width: 100%;
 }
 
 .skill{
@@ -232,11 +233,11 @@ main{
 }
 
 .skills h2{
-    font-size: 30px;
-    font-weight: normal;
-    margin: 102.5px 871px 141px 871px;
-    float: center;
     text-align: center;
+    font-size: 33px;
+    font-weight:500px;
+    margin: 102.5px 860px 141px 860px;
+
 }
 
 .menuskills{
@@ -255,17 +256,12 @@ main{
     text-transform: uppercase;
 }
 
-
-
 .menuskills p {
     color: black;
     font-size: 16px;
     line-height: 22px;
 }
 
-.kay{
-    
-}
 .kays {
     float: center;
     margin: 110px 0px 95px 0px;
@@ -274,7 +270,7 @@ main{
 }
 
 .kays h2{
-    font-size: 30px;
+    font-size: 33px;
     font-weight: normal;
     margin: 0px 0px 95px 0px;
 }
@@ -285,16 +281,267 @@ main{
     margin-bottom: 10px;
     width: auto;
 }
-/*
-.kays h3{
+
+.cs{
     float: left;
-    font-size: 30px;
-    margin-top: ;
+    width: 600px;
+    margin-top: -300px;
+    
+}
+.cs h3{
+    font-size: 29px;
 }
 
-.kays{
-    width: 100%;
-    height: 100%;
-    background: url(../img/keys.png) 50% no-repeat;
+
+.go li{
+    padding: 4px;
+
+    margin: 0px 0px 0px 388px;
 }
-*/
+
+.go input{
+    height: 40px;
+    text-align: center;
+    border: 2px;
+    background: #63b5ae;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 388px;
+    padding: 0px 16px;
+}
+
+.wh{
+    float: right;
+    margin-top: -300px;
+}
+
+.hw h3{ 
+    font-size: 20px;
+    padding: 2px;
+}
+
+.hw p{
+    line-height: 20px;
+}
+
+.hw{
+    margin: 0px 500px 0px 0px;
+}
+
+.summ{
+    float: center;
+    width: 100%;
+}
+.summ h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.calculation{
+    float: left;
+    width: 100%;
+    margin-left: 495px;
+}
+
+.calculation select{
+    width: 890px;
+    height: 56px;
+    padding: 10px;
+    background: #eeeeee;
+}
+
+.calculation h3{
+    font-size: 29px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.hr-line{
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    width: 890px;
+    border: none;
+    border-top: 1px solid #1d1d1d;
+}
+
+.calculation h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px; 
+}
+.st{
+    float: right;
+    color:#2c384a;
+    text-align: center;
+    width: 100%;
+    background: url(../img/bgphoto.jpg) center/cover no-repeat;
+    margin-top: 155px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+
+.st h2 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: normal;
+    margin-top: 105px;
+}
+
+.menustat {
+    float: center;
+    padding-left: 496px;
+    
+}
+
+.menustat li {
+    float: left;
+    margin-top: 200px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+.menustat p {
+    color: black;
+    font-weight: 500;
+    line-height: 100px;
+}
+
+.feedback {
+    float: center;
+    margin-top: 50px;
+    color:#2c384a;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.feedback h2{
+    font-size: 33px;
+    font-weight: 500;
+    margin: 0px 0px 95px 0px;
+}
+
+.feedback p{
+    font-size: 16px;
+    color: black;
+    margin: 25px 0px 43px 0px; 
+}
+
+.contact{
+    float: right;
+    width: 100%;
+    text-align: center;
+    background: url(../img/bgcont.jpg) center/cover no-repeat;
+    height: 810px;
+}
+
+.contact h2{
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 105px;
+    margin-left: 50px;
+    color: white;
+}
+
+.contact h4{
+    font-size: 16px;
+    color: white;
+    margin: 25px 0px 0px 0px
+}
+
+.contactmenu{
+    float: center;
+    padding-left: 655px;
+}
+
+.contactmenu li{
+    float: left;
+    margin-top: 100px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+.forma {
+    float: right;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 295px;
+    margin-top: 42px;
+}
+
+.forma h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+input[type=text]{
+    padding: 10px;
+    width: 350px;
+    margin-right: 15px;
+}
+
+input[type=email]{
+    padding: 10px;
+    width: 350px;
+    margin-left: 15px;
+}
+
+textarea{
+    width: 733px;
+    resize: vertical;
+    padding: 15px;
+    border: 0;
+    height: 92px;
+}
+
+input[type=reset]{
+    display: block;
+    padding: 10px;
+    color: white;
+    margin-left: 550px;
+    width: 125px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+footer{
+    width: 100%;
+    height: 60px;
+    background: #344051 ;
+    position: relative;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer h5{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 830px;
+    
+
+    
+}
